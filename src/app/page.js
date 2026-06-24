@@ -12,7 +12,7 @@ export default function Home() {
       <header id="hero" className="section hero-section dark-mode">
         <ScrollReveal className="container text-center">
           <div className="profile-img-container">
-            <img src="/profile.jpg" alt="Prashant Kumar Manjhi" className="profile-img" />
+            <img src="/prashant-profile.jpg" alt="Prashant Kumar Manjhi" className="profile-img" />
           </div>
           <h1 className="hero-title">Prashant Kumar Manjhi.</h1>
           <p className="hero-description">
