@@ -1,8 +1,8 @@
 import './globals.css';
 
 export const metadata = {
-  title: 'Devjoti Kundu - Biotechnology Undergraduate',
-  description: 'Resume of Devjoti Kundu, Biotechnology Undergraduate focusing on computational biology and bioinformatics.',
+  title: 'Prashant Kumar Manjhi - Clinical Microbiologist',
+  description: 'Portfolio of Prashant Kumar Manjhi, Aspiring Research Scientist and Clinical Microbiologist.',
 };
 
 export default function RootLayout({ children }) {
