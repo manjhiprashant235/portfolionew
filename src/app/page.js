@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import Navbar from '../components/Navbar';
 import ScrollReveal from '../components/ScrollReveal';
 
@@ -12,7 +13,14 @@ export default function Home() {
       <header id="hero" className="section hero-section dark-mode">
         <ScrollReveal className="container text-center">
           <div className="profile-img-container">
-            <img src="/prashant-profile.jpg" alt="Prashant Kumar Manjhi" className="profile-img" />
+            <Image 
+              src="/prashant-profile.jpg" 
+              alt="Prashant Kumar Manjhi" 
+              width={140} 
+              height={140} 
+              className="profile-img" 
+              priority
+            />
           </div>
           <h1 className="hero-title">Prashant Kumar Manjhi.</h1>
           <p className="hero-description">
